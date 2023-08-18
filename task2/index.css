@@ -1,0 +1,108 @@
+body {
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+a {
+  text-decoration: none;
+}
+
+.btn,
+.btn {
+  background-color: #0a0a25;
+  color: white;
+  border-radius: 200px;
+  padding: 8px 16px;
+  transition: 0.3s;
+  display: block;
+  width: fit-content;
+  margin: 0px auto;
+  border: 1px solid #0a0a25;
+}
+.btn:hover,
+.btn:hover {
+  background-color: white;
+  color: #0a0a25;
+}
+
+.btn.secondary {
+  background-color: white;
+  cursor: pointer;
+  color: #0a0a25;
+}
+.btn.secondary:hover {
+  background-color: #0a0a25;
+  color: white;
+  border: 1px solid white;
+}
+
+table {
+  margin: 0 auto;
+}
+/* playlist-preview page */
+.playlist-preview a..btn {
+  margin-top: 20px;
+}
+
+/* add-video page */
+.add-video * {
+  color: white;
+}
+main {
+  margin: 25px auto;
+  max-width: 450px;
+  min-height: 520px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 20px;
+  background: #0a0a25;
+  color: white;
+  overflow: hidden;
+}
+main section {
+  padding: 15px 50px;
+}
+
+.add-video .logo {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 30px;
+  font-size: 14px;
+}
+.add-video .logo img {
+  width: 100px;
+}
+
+.add-video input:not(input[type="radio"]),
+.add-video textarea {
+  width: 100%;
+  display: block;
+  margin: 5px auto;
+  padding: 5px;
+  color: #0a0a25;
+  margin-bottom: 20px;
+}
+.add-video input[type="file"] {
+  background-color: white;
+}
+
+.add-video div:not(.radio-group) > label {
+  display: block;
+  text-align: start;
+  font-size: 18px;
+}
+.add-video .btn[type="submit"] {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* confirmation page */
+.confirmation .sucsess {
+  background-color: #4bb543;
+  padding: 50px 0;
+}
+.confirmation .btn {
+  margin-top: 40px;
+}
