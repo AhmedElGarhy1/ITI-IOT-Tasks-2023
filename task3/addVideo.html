@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreeCodeCamp Add Video</title>
+    <link rel="stylesheet" href="./style/index.css" />
+  </head>
+  <body class="add-video">
+    <main>
+      <section>
+        <div class="logo">
+          <img
+            src="https://yt3.googleusercontent.com/ytc/AOPolaTs1IEit9EUooQAJkWS4SkpUE7oMDXYrjIgnOk1Kw=s176-c-k-c0x00ffffff-no-rj"
+            alt="freecodecamp-Logo"
+            width="50"
+          />
+          <h1>FreeCodeCamp</h1>
+        </div>
+        <form action="./confirmation.html">
+          <div>
+            <label>Title</label>
+            <input type="text" />
+          </div>
+          <div>
+            <label>Description</label>
+            <textarea rows="3" type="text"></textarea>
+          </div>
+          <div>
+            <label>Video File</label>
+            <input type="file" />
+          </div>
+          <div>
+            <label>Video Date</label>
+            <input type="date" />
+          </div>
+          <div>
+            <label>Is this Video for Kids?</label>
+            <div class="radio-group">
+              <label for="yes">Yes</label>
+              <input id="yes" type="radio" value="Yes" name="children" />
+              <label for="no">No</label>
+              <input id="no" type="radio" value="No" name="children" />
+            </div>
+          </div>
+          <button class="btn secondary" type="submit">Upload</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
